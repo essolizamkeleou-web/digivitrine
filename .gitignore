@@ -1,0 +1,35 @@
+# Secrets : ne jamais versionner
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.jks
+key.properties
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Backend (Laravel)
+backend/vendor/
+backend/node_modules/
+backend/storage/*.key
+backend/public/storage
+backend/public/hot
+
+# Flutter / Dart
+app/.dart_tool/
+app/build/
+app/.flutter-plugins*
+app/.packages
+app/android/local.properties
+app/android/.gradle/
+app/windows/flutter/ephemeral/
+
+# Données locales
+*.log
+*.sqlite
+*.sql.gz
