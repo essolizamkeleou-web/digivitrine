@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: digivitrine-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: digivitrine
+      POSTGRES_USER: digivitrine
+      POSTGRES_PASSWORD: digivitrine_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
