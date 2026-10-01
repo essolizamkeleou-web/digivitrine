@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -43,6 +45,26 @@ class User extends Authenticatable
             'role' => UserRole::class,
             'is_active' => 'boolean',
         ];
+    }
+
+    /**
+     * The profile owned by this account (a user has at most one active profile).
+     *
+     * @return HasOne<Artisan, $this>
+     */
+    public function artisan(): HasOne
+    {
+        return $this->hasOne(Artisan::class);
+    }
+
+    /**
+     * Profiles created by this account (field agents create profiles for artisans).
+     *
+     * @return HasMany<Artisan, $this>
+     */
+    public function createdArtisans(): HasMany
+    {
+        return $this->hasMany(Artisan::class, 'created_by');
     }
 
     /**

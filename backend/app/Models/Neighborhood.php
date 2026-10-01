@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 #[Fillable(['city_id', 'name', 'slug', 'is_active'])]
 class Neighborhood extends Model
@@ -39,5 +40,11 @@ class Neighborhood extends Model
         return $this->belongsTo(City::class);
     }
 
-    // The artisans() relation is added with the Artisan model (next block).
+    /**
+     * @return HasMany<Artisan, $this>
+     */
+    public function artisans(): HasMany
+    {
+        return $this->hasMany(Artisan::class);
+    }
 }
