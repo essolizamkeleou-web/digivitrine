@@ -147,6 +147,40 @@ class Artisan extends Model
     }
 
     /**
+     * @return HasMany<Review, $this>
+     */
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    /**
+     * Accounts that saved this profile as a favorite.
+     *
+     * @return BelongsToMany<User, $this>
+     */
+    public function favoritedBy(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class, 'favorites')->withTimestamps();
+    }
+
+    /**
+     * @return HasMany<Report, $this>
+     */
+    public function reports(): HasMany
+    {
+        return $this->hasMany(Report::class);
+    }
+
+    /**
+     * @return HasMany<ProfileEvent, $this>
+     */
+    public function profileEvents(): HasMany
+    {
+        return $this->hasMany(ProfileEvent::class);
+    }
+
+    /**
      * Profiles visible to the public (rule RG-05).
      *
      * @param  Builder<Artisan>  $query

@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -66,6 +67,38 @@ class User extends Authenticatable
     {
         return $this->hasMany(Artisan::class, 'created_by');
     }
+
+    /**
+     * Reviews written by this account.
+     *
+     * @return HasMany<Review, $this>
+     */
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    /**
+     * Profiles saved by this account.
+     *
+     * @return BelongsToMany<Artisan, $this>
+     */
+    public function favoriteArtisans(): BelongsToMany
+    {
+        return $this->belongsToMany(Artisan::class, 'favorites')->withTimestamps();
+    }
+
+    /**
+     * Reports filed by this account.
+     *
+     * @return HasMany<Report, $this>
+     */
+    public function reports(): HasMany
+    {
+        return $this->hasMany(Report::class);
+    }
+
+    // In-app notifications use Laravel's native Notifiable trait ($user->notifications).
 
     /**
      * Emails are stored trimmed and lowercase; an empty value becomes NULL.
