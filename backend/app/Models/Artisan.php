@@ -9,6 +9,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 // Ownership, status and validation fields are deliberately NOT mass assignable.
@@ -85,6 +88,62 @@ class Artisan extends Model
     public function neighborhood(): BelongsTo
     {
         return $this->belongsTo(Neighborhood::class);
+    }
+
+    /**
+     * Categories of the artisan. The optional subcategory and the primary flag live on the pivot.
+     *
+     * @return BelongsToMany<Category, $this>
+     */
+    public function categories(): BelongsToMany
+    {
+        return $this->belongsToMany(Category::class, 'artisan_categories')
+            ->withPivot(['subcategory_id', 'is_primary'])
+            ->withTimestamps();
+    }
+
+    /**
+     * Subcategories of the artisan (read-only: attach them through categories()).
+     *
+     * @return BelongsToMany<Subcategory, $this>
+     */
+    public function subcategories(): BelongsToMany
+    {
+        return $this->belongsToMany(Subcategory::class, 'artisan_categories', 'artisan_id', 'subcategory_id')
+            ->withPivot(['category_id', 'is_primary'])
+            ->withTimestamps();
+    }
+
+    /**
+     * @return HasMany<Service, $this>
+     */
+    public function services(): HasMany
+    {
+        return $this->hasMany(Service::class);
+    }
+
+    /**
+     * @return HasMany<Photo, $this>
+     */
+    public function photos(): HasMany
+    {
+        return $this->hasMany(Photo::class);
+    }
+
+    /**
+     * @return HasOne<Photo, $this>
+     */
+    public function primaryPhoto(): HasOne
+    {
+        return $this->hasOne(Photo::class)->where('is_primary', true);
+    }
+
+    /**
+     * @return HasMany<OpeningHour, $this>
+     */
+    public function openingHours(): HasMany
+    {
+        return $this->hasMany(OpeningHour::class);
     }
 
     /**

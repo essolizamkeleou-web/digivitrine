@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 #[Fillable(['category_id', 'name', 'slug', 'position', 'is_active'])]
 class Subcategory extends Model
@@ -39,5 +40,15 @@ class Subcategory extends Model
     public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class);
+    }
+
+    /**
+     * @return BelongsToMany<Artisan, $this>
+     */
+    public function artisans(): BelongsToMany
+    {
+        return $this->belongsToMany(Artisan::class, 'artisan_categories', 'subcategory_id', 'artisan_id')
+            ->withPivot(['category_id', 'is_primary'])
+            ->withTimestamps();
     }
 }
