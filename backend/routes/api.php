@@ -35,3 +35,22 @@ Route::prefix('v1')->name('api.v1.')->group(function (): void {
         });
     });
 });
+
+/*
+|--------------------------------------------------------------------------
+| Domain route files
+|--------------------------------------------------------------------------
+|
+| Every file of routes/api/ is loaded (alphabetical order) under /api/v1.
+| A new API domain only needs a new file there.
+|
+*/
+
+Route::prefix('v1')->name('api.v1.')->group(function (): void {
+    $files = glob(__DIR__.'/api/*.php') ?: [];
+    sort($files);
+
+    foreach ($files as $file) {
+        require $file;
+    }
+});
