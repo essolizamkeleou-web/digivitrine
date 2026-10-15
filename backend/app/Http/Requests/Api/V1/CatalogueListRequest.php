@@ -41,14 +41,14 @@ class CatalogueListRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'per_page.integer' => 'per_page doit \u{EA}tre un entier.',
-            'per_page.min' => 'per_page doit \u{EA}tre au moins 1.',
-            'per_page.max' => 'per_page ne peut pas d\u{E9}passer 200.',
-            'page.integer' => 'page doit \u{EA}tre un entier.',
-            'page.min' => 'page doit \u{EA}tre au moins 1.',
+            'per_page.integer' => "per_page doit \u{EA}tre un entier.",
+            'per_page.min' => "per_page doit \u{EA}tre au moins 1.",
+            'per_page.max' => "per_page ne peut pas d\u{E9}passer 200.",
+            'page.integer' => "page doit \u{EA}tre un entier.",
+            'page.min' => "page doit \u{EA}tre au moins 1.",
             'city.regex' => 'Identifiant de ville invalide (minuscules, chiffres et tirets).',
-            'country.size' => 'Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).',
-            'country.alpha' => 'Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).',
+            'country.size' => "Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).",
+            'country.alpha' => "Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).",
         ];
     }
 

@@ -29,4 +29,8 @@ final class ApiMessages
     public const ACCOUNT_DISABLED = "Ce compte est d\u{E9}sactiv\u{E9}.";
 
     public const ALREADY_USED = "Ce num\u{E9}ro de t\u{E9}l\u{E9}phone ou cet e-mail est d\u{E9}j\u{E0} utilis\u{E9}.";
+
+    public const PROFILE_EXISTS = "Vous avez d\u{E9}j\u{E0} un profil artisan.";
+
+    public const STATUS_CONFLICT = "Ce profil ne peut pas \u{EA}tre soumis dans son \u{E9}tat actuel.";
 }
