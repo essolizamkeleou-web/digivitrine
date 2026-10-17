@@ -26,4 +26,20 @@ return [
 
     'reference_cache_seconds' => (int) env('DIGIVITRINE_REFERENCE_CACHE_SECONDS', 300),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Photo gallery
+    |--------------------------------------------------------------------------
+    |
+    | Storage disk of the artisan photos (public in development, an object storage disk later),
+    | maximum number of photos per profile (rule RG-06) and maximum upload size in kilobytes.
+    |
+    */
+
+    'photos_disk' => env('DIGIVITRINE_PHOTOS_DISK', 'public'),
+
+    'photos_max_per_artisan' => (int) env('DIGIVITRINE_PHOTOS_MAX', 6),
+
+    'photos_max_kb' => (int) env('DIGIVITRINE_PHOTOS_MAX_KB', 5120),
+
 ];

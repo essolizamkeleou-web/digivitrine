@@ -33,4 +33,6 @@ final class ApiMessages
     public const PROFILE_EXISTS = "Vous avez d\u{E9}j\u{E0} un profil artisan.";
 
     public const STATUS_CONFLICT = "Ce profil ne peut pas \u{EA}tre soumis dans son \u{E9}tat actuel.";
+
+    public const PHOTO_LIMIT = 'Limite de photos atteinte pour ce profil.';
 }
