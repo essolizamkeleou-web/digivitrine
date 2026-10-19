@@ -35,4 +35,6 @@ final class ApiMessages
     public const STATUS_CONFLICT = "Ce profil ne peut pas \u{EA}tre soumis dans son \u{E9}tat actuel.";
 
     public const PHOTO_LIMIT = 'Limite de photos atteinte pour ce profil.';
+
+    public const INVALID_TRANSITION = "Ce changement de statut n'est pas possible depuis l'\u{E9}tat actuel.";
 }

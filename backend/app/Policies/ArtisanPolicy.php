@@ -34,6 +34,19 @@ class ArtisanPolicy
             && ($this->isStaff($user) || $this->isOwner($user, $artisan) || $this->isCreator($user, $artisan));
     }
 
+    /**
+     * Validating, rejecting or suspending a profile: staff only, and never one's own profile
+     * (another moderator must do it).
+     */
+    public function moderate(User $user, Artisan $artisan): bool|Response
+    {
+        if (! $this->isStaff($user)) {
+            return Response::deny();
+        }
+
+        return $this->isOwner($user, $artisan) ? Response::deny() : true;
+    }
+
     public function create(User $user): bool
     {
         return true;
