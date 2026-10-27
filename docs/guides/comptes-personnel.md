@@ -15,7 +15,7 @@ La commande pose les questions manquantes : rôle, nom, téléphone et/ou e-mail
 Les valeurs peuvent aussi être passées en options. **Le mot de passe, lui, ne se passe jamais en option** : il n'existe aucune option pour cela.
 
 ```powershell
-php artisan staff:create --role=admin --name="Nom Prénom" --phone="90 12 34 56"
+php artisan staff:create --role=admin --name="Nom Prénom" --phone="<ton numéro>"
 php artisan staff:create --role=moderator --name="Nom Prénom" --email="moderateur@exemple.tg"
 ```
 
@@ -58,7 +58,7 @@ Dans un autre terminal :
 ```powershell
 $secure = Read-Host "Mot de passe" -AsSecureString
 $plain = [System.Net.NetworkCredential]::new("", $secure).Password
-$body = @{ login = "90 12 34 56"; password = $plain } | ConvertTo-Json
+$body = @{ login = "<ton numéro>"; password = $plain } | ConvertTo-Json
 Invoke-RestMethod -Method Post -Uri http://127.0.0.1:8000/api/v1/auth/login -ContentType "application/json" -Body $body
 ```
 
