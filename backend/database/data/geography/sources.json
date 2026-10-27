@@ -1,0 +1,122 @@
+{
+    "tiers": {
+        "1": "texte légal (loi, décret ou arrêté publié au Journal officiel)",
+        "2": "recensement ou statistique officielle",
+        "3": "cartographie ou document administratif officiel (ministère, mairie)",
+        "4": "base géographique ou cartographie collaborative (recoupement uniquement)",
+        "5": "source secondaire (encyclopédie, agrégateur, article) : repérage de candidats, jamais une preuve seule",
+        "6": "information interne non vérifiée (brief du projet)"
+    },
+    "sources": [
+        {
+            "id": "src-brief-proprietaire-2026-10",
+            "title": "Libellés fournis par le propriétaire du projet (brief du 25 octobre 2026)",
+            "publisher": "Projet DigiVitrine",
+            "type": "interne",
+            "tier": 6,
+            "url": null,
+            "license": null,
+            "located": true,
+            "note": "Libellés associés à Golfe 1 à 7. Leur nature (chef-lieu, canton ou quartier) est à confirmer ; non vérifiés."
+        },
+        {
+            "id": "src-loi-2017-communes",
+            "title": "Texte de loi de 2017 sur la création des communes (numéro et référence au Journal officiel à renseigner)",
+            "publisher": "République togolaise",
+            "type": "loi",
+            "tier": 1,
+            "url": null,
+            "license": null,
+            "located": false,
+            "note": "À localiser. Fait foi pour le ressort territorial et les chefs-lieux. Vérifier s'il couvre aussi les communes d'Agoè-Nyivé."
+        },
+        {
+            "id": "src-textes-agoe-nyive",
+            "title": "Textes de création des communes de la préfecture d'Agoè-Nyivé (références à localiser)",
+            "publisher": "République togolaise",
+            "type": "loi",
+            "tier": 1,
+            "url": null,
+            "license": null,
+            "located": false,
+            "note": "À localiser."
+        },
+        {
+            "id": "src-rgph5-2022",
+            "title": "Recensement général de la population et de l'habitat, 5e édition (2022) : listes de localités par commune",
+            "publisher": "Direction Générale de la Statistique et de la Comptabilité Nationale (à confirmer)",
+            "type": "recensement",
+            "tier": 2,
+            "url": null,
+            "license": null,
+            "located": false,
+            "note": "À demander. L'existence de listes détaillées de localités n'est pas vérifiée."
+        },
+        {
+            "id": "src-matdcl-carte-2019",
+            "title": "Carte des communes de la région Maritime au Togo (2019)",
+            "publisher": "À confirmer (nom du fichier : tg_matdcl_communes_de_la_region_maritime_au_togo_2019)",
+            "type": "cartographie",
+            "tier": 3,
+            "url": "https://bdd.pseau.org/outils/ouvrages/tg_matdcl_communes_de_la_region_maritime_au_togo_2019.pdf",
+            "license": null,
+            "located": true,
+            "note": "Limites de préfecture, de commune et de canton ; ne liste pas les quartiers. L'extraction du texte écrit « Agoé-Nyivé » et regroupe « Golfe 1-2-3 » : vérifier sur la carte originale."
+        },
+        {
+            "id": "src-citypopulation-lome",
+            "title": "Togo : Lomé, préfectures et communes (population au recensement du 8 novembre 2022)",
+            "publisher": "citypopulation.de (cite la Direction Générale de la Statistique et de la Comptabilité Nationale)",
+            "type": "agregateur",
+            "tier": 5,
+            "url": "https://citypopulation.de/en/togo/lome/admin/",
+            "license": null,
+            "located": true,
+            "note": "Confirme les noms et le nombre des 13 communes. Ne liste pas les quartiers."
+        },
+        {
+            "id": "src-vikidia-subdivisions-togo",
+            "title": "Subdivisions du Togo",
+            "publisher": "Vikidia",
+            "type": "encyclopedie",
+            "tier": 5,
+            "url": "https://fr.vikidia.org/wiki/Subdivisions_du_Togo",
+            "license": null,
+            "located": true,
+            "note": "Page signalée comme à maintenir. Écrit « Agoé-Nyivé ». Les cantons, puis les villages ou quartiers, sont mentionnés sans liste."
+        },
+        {
+            "id": "src-oidp-profils-communes",
+            "title": "Profils de collectivités territoriales du Togo",
+            "publisher": "OIDP Afrique",
+            "type": "portail",
+            "tier": 5,
+            "url": "https://oidp-afrique.org/category/profil-commune/afrique-de-louest/togo/",
+            "license": null,
+            "located": true,
+            "note": "Une fiche pour la commune d'Agoè-Nyivé est signalée. Contenu non examiné."
+        },
+        {
+            "id": "src-openstreetmap",
+            "title": "OpenStreetMap",
+            "publisher": "Contributeurs d'OpenStreetMap",
+            "type": "cartographie collaborative",
+            "tier": 4,
+            "url": "https://www.openstreetmap.org",
+            "license": "ODbL",
+            "located": true,
+            "note": "Recoupement uniquement. L'ancienne division de Lomé (69 quartiers en 5 arrondissements) ne doit pas être confondue avec les 13 communes."
+        },
+        {
+            "id": "src-geonames",
+            "title": "GeoNames",
+            "publisher": "GeoNames",
+            "type": "base géographique",
+            "tier": 4,
+            "url": "https://www.geonames.org",
+            "license": "CC BY 4.0",
+            "located": true,
+            "note": "Recoupement uniquement : le classement des lieux (quartier, ville) y est hétérogène."
+        }
+    ]
+}

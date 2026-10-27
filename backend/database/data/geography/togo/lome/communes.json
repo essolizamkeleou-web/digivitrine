@@ -1,0 +1,140 @@
+{
+    "city": {
+        "country_code": "TG",
+        "slug": "lome"
+    },
+    "scope": "13 communes du Grand Lomé (préfectures du Golfe et d'Agoè-Nyivé). Les cantons sont exclus du périmètre actuel.",
+    "orthography_note": "La graphie de référence des noms sera celle du texte de loi, une fois localisé. En attendant, les variantes rencontrées (Agoè et Agoé) sont conservées comme alias.",
+    "communes": [
+        {
+            "slug": "golfe-1",
+            "name": "Golfe 1",
+            "prefecture": "golfe",
+            "brief_label": "Bè-Est",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-2",
+            "name": "Golfe 2",
+            "prefecture": "golfe",
+            "brief_label": "Bè-Centre",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-3",
+            "name": "Golfe 3",
+            "prefecture": "golfe",
+            "brief_label": "Bè-Ouest",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-4",
+            "name": "Golfe 4",
+            "prefecture": "golfe",
+            "brief_label": "Amoutivé",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-5",
+            "name": "Golfe 5",
+            "prefecture": "golfe",
+            "brief_label": "Aflao-Gakli",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-6",
+            "name": "Golfe 6",
+            "prefecture": "golfe",
+            "brief_label": "Baguida",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "golfe-7",
+            "name": "Golfe 7",
+            "prefecture": "golfe",
+            "brief_label": "Aflao-Sagbado",
+            "brief_label_nature": "a_confirmer",
+            "aliases": [],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-1",
+            "name": "Agoè-Nyivé 1",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 1"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-2",
+            "name": "Agoè-Nyivé 2",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 2"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-3",
+            "name": "Agoè-Nyivé 3",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 3"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-4",
+            "name": "Agoè-Nyivé 4",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 4"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-5",
+            "name": "Agoè-Nyivé 5",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 5"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        },
+        {
+            "slug": "agoe-nyive-6",
+            "name": "Agoè-Nyivé 6",
+            "prefecture": "agoe-nyive",
+            "brief_label": null,
+            "brief_label_nature": null,
+            "aliases": ["Agoé-Nyivé 6"],
+            "sources": ["src-brief-proprietaire-2026-10", "src-citypopulation-lome", "src-matdcl-carte-2019"],
+            "verification": "a_verifier"
+        }
+    ]
+}
