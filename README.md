@@ -24,9 +24,11 @@ Windows 11, Git, Docker Desktop, PHP 8.4 avec les extensions `gd` (avec WebP) et
 
 ## Installation (développement)
 
-Depuis la racine du dépôt :
+Depuis la racine du dépôt, créer le fichier `.env` (ignoré par Git) à partir de l'exemple, puis y remplacer la valeur fictive de `POSTGRES_PASSWORD` par un mot de passe aléatoire propre à votre machine :
 
 ```powershell
+Copy-Item .env.example .env
+notepad .env
 docker compose up -d
 ```
 
@@ -39,7 +41,7 @@ Copy-Item .env.example .env
 php artisan key:generate
 ```
 
-Dans `backend/.env`, renseigner la base : `DB_CONNECTION=pgsql`, `DB_HOST=127.0.0.1`, `DB_PORT=5432`, `DB_DATABASE=digivitrine`, `DB_USERNAME=digivitrine` et `DB_PASSWORD` (voir `docker-compose.yml`). Puis :
+Dans `backend/.env`, renseigner la base : `DB_CONNECTION=pgsql`, `DB_HOST=127.0.0.1`, `DB_PORT=5432`, `DB_DATABASE=digivitrine`, `DB_USERNAME=digivitrine` et `DB_PASSWORD` (la même valeur que `POSTGRES_PASSWORD` du fichier `.env` de la racine). Puis :
 
 ```powershell
 php artisan migrate
@@ -87,7 +89,7 @@ Un garde-fou dans `backend/tests/TestCase.php` refuse d'exécuter les tests sur 
 ## Sécurité
 
 - `backend/.env` n'est jamais versionné ; ne jamais y coller de secret dans un message ou un ticket.
-- Le mot de passe de PostgreSQL de `docker-compose.yml` ne sert qu'au développement local (base liée à `127.0.0.1`). Il ne doit **jamais** être réutilisé ailleurs, et sera sorti du dépôt avant toute mise en ligne.
+- Le mot de passe de PostgreSQL n'est **pas** dans le dépôt : il est dans `.env` (racine) et `backend/.env`, deux fichiers ignorés par Git. Choisir une valeur aléatoire propre à chaque machine, ne jamais la réutiliser ailleurs et ne jamais la coller dans un message ou un ticket.
 - Aucun rôle privilégié ne peut être demandé par l'inscription publique.
 
 ## Contribuer

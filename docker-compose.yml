@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: digivitrine
       POSTGRES_USER: digivitrine
-      POSTGRES_PASSWORD: digivitrine_dev_password
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?definir POSTGRES_PASSWORD dans le fichier .env a la racine}
     ports:
       - "127.0.0.1:5432:5432"
     volumes:
