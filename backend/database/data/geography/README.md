@@ -1,6 +1,6 @@
 # Référentiel géographique du Grand Lomé
 
-Données de travail pour rattacher chaque quartier, village ou localité à sa commune. **Cet état est une préparation** : aucune liste de quartiers n'est renseignée, aucune liste n'est présumée exhaustive, et rien de ce dossier n'est encore lu par l'application (pas de migration, de modèle, de seeder ni de changement de l'API).
+Données de travail pour rattacher chaque quartier, village ou localité à sa commune. **Cet état est une préparation** : aucune liste de quartiers n'est renseignée, aucune liste n'est présumée exhaustive, et ce dossier est lu uniquement par la commande `php artisan geography:load` (simulation par défaut), jamais automatiquement.
 
 ## Périmètre
 
@@ -86,4 +86,18 @@ La sortie distingue, pour chaque commune, les quartiers **renseignés**, **véri
 
 ## Ce qui n'est pas encore fait
 
-Migration (`communes`, colonnes de `neighborhoods`, alias), modèles, seeder de chargement, ressources de l'API, filtre `commune`, prise en compte des alias dans la recherche. Décisions en attente : visibilité publique des quartiers `a_verifier`, orthographe de référence, source légale à localiser.
+Ressources de l'API, filtre `commune`, prise en compte des alias dans la recherche. Décisions en attente : visibilité publique des quartiers `a_verifier`, orthographe de référence, source légale à localiser.
+
+## Chargement en base
+
+```powershell
+cd backend
+php artisan geography:load            # simulation : valide les fichiers, affiche ce qui serait créé, n'écrit rien
+php artisan geography:load --apply    # écrit en base (une transaction)
+```
+
+- Les fichiers sont validés avec les mêmes fonctions que `check.php`. **Une seule erreur bloque toute écriture.**
+- **Collision de slug avec une ligne déjà en base** (autre commune, ou quartier sans commune) : arrêt et message explicite, jamais d'ignorance silencieuse. C'est un humain qui tranche.
+- **Les lignes existantes ne sont jamais modifiées** (nom, activation). Seuls les éléments manquants sont ajoutés : communes, quartiers, alias.
+- Un quartier **non vérifié est chargé inactif** ; seul un quartier `verifie` est actif. L'API publique et la création de profil ne voient que les quartiers actifs.
+- Les alias de communes (par exemple `Agoé-Nyivé`) restent dans `communes.json` : ils ne sont pas encore chargés en base.

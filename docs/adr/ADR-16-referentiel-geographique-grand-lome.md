@@ -41,3 +41,8 @@ L'audit du 24 octobre 2026 a aussi montré que le seeder actuel ignore **sans pr
 ## 5. Conséquences
 
 Le référentiel est fiable et traçable, mais le pilote dépend d'une validation humaine des quartiers de ses communes. Tant qu'aucun quartier n'est actif, la création de profil reste impossible : c'est voulu plutôt que d'accepter des données douteuses.
+
+## 6. Journal d'avancement
+
+- **2026-10-28** : couche de données livrée. Migration additive (`communes`, colonnes `commune_id`, `kind`, `verification` et `source_ref` sur `neighborhoods`, table `neighborhood_aliases`, clé composite commune/ville), modèles et énumérations, commande `php artisan geography:load` (simulation par défaut, `--apply`, arrêt sur toute collision de slug, quartiers non vérifiés chargés inactifs), tests.
+- **À faire** : champ `commune` dans les réponses de l'API, filtre `commune` facultatif, alias pris en compte par la recherche, puis les données elles-mêmes (sources à localiser, validation terrain).

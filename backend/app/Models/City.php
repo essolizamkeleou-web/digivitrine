@@ -41,4 +41,12 @@ class City extends Model
     {
         return $this->hasMany(Neighborhood::class);
     }
+
+    /**
+     * @return HasMany<Commune, $this>
+     */
+    public function communes(): HasMany
+    {
+        return $this->hasMany(Commune::class);
+    }
 }
