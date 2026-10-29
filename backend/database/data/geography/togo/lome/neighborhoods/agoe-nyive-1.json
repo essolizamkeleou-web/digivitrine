@@ -4,7 +4,7 @@
     "declared_count": null,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Candidats issus du document fourni (source citée : mairie d'Agoè-Nyivé 1, non localisée). Le document distingue 7 quartiers et 32 villages et localités, à ne pas confondre : 39 entrées listées. Le type des 32 villages et localités reste non précisé. Aucun nom vérifié.",
+    "notes": "Candidats issus du document fourni (source citée : mairie d'Agoè-Nyivé 1, non localisée). Le document distingue 7 quartiers et 32 villages et localités, à ne pas confondre : 39 entrées listées. Le type des 32 villages et localités reste non précisé. Aucun nom vérifié. Vérification documentaire du 29 octobre 2026 : la page du DAGL (src-dagl-agoe-nyive-1) annonce 32 villages et 7 quartiers « notamment » (liste de quartiers non exhaustive). Les 32 villages et les 7 quartiers de nos entrées correspondent à cette page une fois normalisés accents, tirets et espaces ; le nom Anomegblé y figure deux fois (33 occurrences pour 32 noms distincts). La page appelle « villages » les 32 entrées que nous avons laissées de type non précisé : changement à décider, non appliqué. La page de la mairie (src-mairie-agoe-nyive-1) n'a pas pu être lue (accès automatisé interdit). Aucune entrée modifiée, aucune vérifiée.",
     "neighborhoods": [
         {
             "name": "Atsanvé",

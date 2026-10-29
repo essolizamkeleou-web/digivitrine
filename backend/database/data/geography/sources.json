@@ -21,14 +21,19 @@
         },
         {
             "id": "src-loi-2017-communes",
-            "title": "Texte de loi de 2017 sur la création des communes (numéro et référence au Journal officiel à renseigner)",
+            "title": "Loi portant création des communes au Togo (29 juin 2017) et décret fixant le ressort territorial des communes",
             "publisher": "République togolaise",
             "type": "loi",
             "tier": 1,
             "url": null,
             "license": null,
             "located": false,
-            "note": "À localiser. Fait foi pour le ressort territorial et les chefs-lieux. Vérifier s'il couvre aussi les communes d'Agoè-Nyivé."
+            "note": "Références relevées le 29 octobre 2026 sur des pages secondaires (DAGL, mairie de Golfe 1) : le texte lui-même n'est pas en main. À localiser au Journal officiel avant toute vérification fondée sur le texte légal. Fait foi pour le ressort territorial et les chefs-lieux.",
+            "references": [
+                "Loi n° 2017-008 du 29 juin 2017 portant création des communes (numéro écrit 2017-008 par le DAGL et 2017-08 par la mairie de Golfe 1)",
+                "Loi n° 2019-001 du 9 janvier 2019 modifiant la loi de 2017 (citée par le DAGL)",
+                "Décret n° 2017-144/PR du 22 décembre 2017 fixant le ressort territorial de Golfe 1 (cité par la mairie de Golfe 1)"
+            ]
         },
         {
             "id": "src-textes-agoe-nyive",
@@ -39,7 +44,10 @@
             "url": null,
             "license": null,
             "located": false,
-            "note": "À localiser."
+            "note": "À localiser.",
+            "references": [
+                "La page DAGL d'Agoè-Nyivé 1 cite la loi n° 2017-008 du 29 juin 2017 portant création des communes, modifiée par la loi n° 2019-001 du 9 janvier 2019 : ces textes semblent couvrir aussi les communes d'Agoè-Nyivé (à confirmer sur le texte)."
+            ]
         },
         {
             "id": "src-rgph5-2022",
@@ -150,6 +158,66 @@
             "license": "CC BY-SA",
             "located": true,
             "note": "Decomptes par commune du Golfe : 31, 8, 8, 26, 24 et 11 pour Golfe 1 a 6. Golfe 1 : 31 ici contre 36 dans la presse."
+        },
+        {
+            "id": "src-dagl-portail",
+            "title": "District Autonome du Grand Lomé : page d'accueil du portail officiel",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "portail institutionnel",
+            "tier": 3,
+            "url": "https://www.dagl.tg/",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Chiffres clés affichés : 13 communes, 2 préfectures, 11 cantons (les cantons sont hors périmètre). Le menu nomme Golfe 1 (Bè-Est), Golfe 2 (Bè-Centre) et Golfe 3 (Bè-Ouest) ; Golfe 4, 5, 6 et 7 n'ont pas de nom entre parenthèses. Ne liste aucun quartier. Les pages de chaque commune y sont référencées (identifiants 1 à 13)."
+        },
+        {
+            "id": "src-dagl-golfe-1",
+            "title": "DAGL : Commune du Golfe 1",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://www.dagl.tg/communes/4-commune-du-golfe-1",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Annonce 34 quartiers pour le canton de Bè mais énumère 36 noms (comptés un à un), dont Bè-Souza-Nétimé N°1, N°2 et N°3. Variantes d'orthographe : Adzrométi, Adanlékpossi, KpotaColas, N’tifafa Komé-Nord, Klobatème. Chef-lieu annoncé : Bè-Afédomé (absent de la liste). Incohérences internes : le texte parle de la mairie de Bè-Ouest alors que le menu indique Golfe 1 (Bè-Est) ; limites, population et superficie diffèrent de la page de la mairie."
+        },
+        {
+            "id": "src-mairie-golfe-1-tkeva",
+            "title": "Mairie du Golfe 1 : Présentation de la commune",
+            "publisher": "Site « Mairie du Golfe 1 » hébergé sous le domaine tkeva-tg.com (caractère officiel à confirmer)",
+            "type": "page communale",
+            "tier": 5,
+            "url": "https://tkeva-tg.com/mairie/presentation-de-la-commune/",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Annonce 36 quartiers et en énumère 36, identiques à nos candidats (écarts de casse seulement). Chef-lieu Bè-Afedomé. Cite la loi n° 2017-08 du 29 juin 2017 et le décret n° 2017-144/PR du 22 décembre 2017. Niveau 5 provisoire : domaine tiers, numéro de téléphone qui ressemble à un numéro fictif, WordPress 5.4 ; l'adresse de courriel affichée est contact@mairiedugolfe1.tg. À relever à 3 seulement si le caractère officiel du site est confirmé."
+        },
+        {
+            "id": "src-dagl-agoe-nyive-1",
+            "title": "DAGL : Commune Agoe-Nyivé 1",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://www.dagl.tg/communes/7-commune-agoe-nyive-1",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Annonce 32 villages et 7 quartiers « notamment » (liste de quartiers non exhaustive). Le nom Anomegblé apparaît deux fois dans l'énumération des villages : 33 occurrences pour 32 noms distincts. Cite la loi n° 2017-008 du 29 juin 2017 modifiée par la loi n° 2019-001 du 9 janvier 2019. Variantes d'orthographe : Anomegblé, Apenyigbi, Djingble, Logope-Agbanyokopé, Apelebuimé, Télessou-Agbodekakopé."
+        },
+        {
+            "id": "src-mairie-agoe-nyive-1",
+            "title": "Mairie d'Agoè-Nyivé 1 : Découverte de la commune",
+            "publisher": "Mairie d'Agoè-Nyivé 1 (domaine mairie.tg, non vérifié)",
+            "type": "page communale",
+            "tier": 3,
+            "url": "https://agoenyive.mairie.tg/decouverte-de-la-commune/",
+            "license": null,
+            "located": false,
+            "retrieved_on": null,
+            "note": "Non consultée : le site interdit l'accès automatisé (robots.txt). À lire à la main et à comparer aux 39 entrées d'Agoè-Nyivé 1. Niveau 3 provisoire, jamais lu : ne peut pas servir de preuve."
         }
     ]
 }
