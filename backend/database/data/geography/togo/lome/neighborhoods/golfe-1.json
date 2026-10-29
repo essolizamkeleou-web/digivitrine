@@ -1,9 +1,595 @@
 {
     "commune": "golfe-1",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 36,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 31 subdivisions (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni le 28 octobre 2026 (source citée : mairie du Golfe 1, non localisée) : 36 noms listés pour 36 annoncés. Un article de presse d'octobre 2025 indique aussi 36 quartiers ; une page encyclopédique indique 31 : écart à trancher. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Bè-Hédjé",
+            "commune": "golfe-1",
+            "slug": "be-hedje",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Apéyémé",
+            "commune": "golfe-1",
+            "slug": "be-apeyeme",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Dangbuipé",
+            "commune": "golfe-1",
+            "slug": "be-dangbuipe",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adzrometi",
+            "commune": "golfe-1",
+            "slug": "be-adzrometi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Agodo",
+            "commune": "golfe-1",
+            "slug": "be-agodo",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Agodogan",
+            "commune": "golfe-1",
+            "slug": "be-agodogan",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Allaglo",
+            "commune": "golfe-1",
+            "slug": "be-allaglo",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Ahligo",
+            "commune": "golfe-1",
+            "slug": "be-ahligo",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Hounvémé",
+            "commune": "golfe-1",
+            "slug": "be-hounveme",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adanlekpossi",
+            "commune": "golfe-1",
+            "slug": "be-adanlekpossi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Wété-Komé",
+            "commune": "golfe-1",
+            "slug": "be-wete-kome",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Akodessewa",
+            "commune": "golfe-1",
+            "slug": "be-akodessewa",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kotokou-Kondji",
+            "commune": "golfe-1",
+            "slug": "be-kotokou-kondji",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Ablogamé",
+            "commune": "golfe-1",
+            "slug": "be-ablogame",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kanyikopé",
+            "commune": "golfe-1",
+            "slug": "be-kanyikope",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adakpamé",
+            "commune": "golfe-1",
+            "slug": "be-adakpame",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adakpamé-Dangbuipé",
+            "commune": "golfe-1",
+            "slug": "be-adakpame-dangbuipe",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adakpamé-Apéyémé",
+            "commune": "golfe-1",
+            "slug": "be-adakpame-apeyeme",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Adakpamé-Kpota-Colas",
+            "commune": "golfe-1",
+            "slug": "be-adakpame-kpota-colas",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kpota-Adidomé",
+            "commune": "golfe-1",
+            "slug": "be-kpota-adidome",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Akodessewa-Kpota",
+            "commune": "golfe-1",
+            "slug": "be-akodessewa-kpota",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Akodessewa-Kponou",
+            "commune": "golfe-1",
+            "slug": "be-akodessewa-kponou",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Anfamé",
+            "commune": "golfe-1",
+            "slug": "be-anfame",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kpota-Dénouvimé",
+            "commune": "golfe-1",
+            "slug": "be-kpota-denouvime",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kpota-Atchantimé",
+            "commune": "golfe-1",
+            "slug": "be-kpota-atchantime",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kpota",
+            "commune": "golfe-1",
+            "slug": "be-kpota",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Kpota-Tokoin",
+            "commune": "golfe-1",
+            "slug": "be-kpota-tokoin",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Ntifafakome Nord",
+            "commune": "golfe-1",
+            "slug": "ntifafakome-nord",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Attiégou",
+            "commune": "golfe-1",
+            "slug": "be-attiegou",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Souza-Nétimé n° 1",
+            "commune": "golfe-1",
+            "slug": "be-souza-netime-n-1",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [
+                "be-souza-netime-n-2",
+                "be-souza-netime-n-3"
+            ],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Souza-Nétimé n° 2",
+            "commune": "golfe-1",
+            "slug": "be-souza-netime-n-2",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [
+                "be-souza-netime-n-1",
+                "be-souza-netime-n-3"
+            ],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Souza-Nétimé n° 3",
+            "commune": "golfe-1",
+            "slug": "be-souza-netime-n-3",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [
+                "be-souza-netime-n-1",
+                "be-souza-netime-n-2"
+            ],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Bè-Anthony-Nétimé",
+            "commune": "golfe-1",
+            "slug": "be-anthony-netime",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Katanga",
+            "commune": "golfe-1",
+            "slug": "katanga",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kélégougan",
+            "commune": "golfe-1",
+            "slug": "kelegougan",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klobatèmé",
+            "commune": "golfe-1",
+            "slug": "klobateme",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

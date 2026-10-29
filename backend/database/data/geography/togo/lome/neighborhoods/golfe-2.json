@@ -1,9 +1,138 @@
 {
     "commune": "golfe-2",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 8,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 8 subdivisions (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 8 noms listés pour 8 annoncés, décompte concordant avec une page encyclopédique (source secondaire). Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Tokoin-Wuiti",
+            "commune": "golfe-2",
+            "slug": "tokoin-wuiti",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Tamé",
+            "commune": "golfe-2",
+            "slug": "tokoin-tame",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Enyonam",
+            "commune": "golfe-2",
+            "slug": "tokoin-enyonam",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Hédzranawoè 1",
+            "commune": "golfe-2",
+            "slug": "hedzranawoe-1",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Hédzranawoè 2 (Togo 2000)",
+            "commune": "golfe-2",
+            "slug": "hedzranawoe-2-togo-2000",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Aviation",
+            "commune": "golfe-2",
+            "slug": "tokoin-aviation",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kégué",
+            "commune": "golfe-2",
+            "slug": "kegue",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Atiégouvi",
+            "commune": "golfe-2",
+            "slug": "atiegouvi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

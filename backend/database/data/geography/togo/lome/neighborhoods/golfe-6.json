@@ -1,9 +1,186 @@
 {
     "commune": "golfe-6",
-    "list_status": "a_verifier",
+    "list_status": "partiel",
     "declared_count": null,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 11 villages (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 11 villages annoncés et listés. Le document précise que cette liste n'est pas présentée comme exhaustive pour les quartiers : declared_count non renseigné. Baguida est aussi le nom de la commune. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Gbétsogbé",
+            "commune": "golfe-6",
+            "slug": "gbetsogbe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Noudokopé",
+            "commune": "golfe-6",
+            "slug": "noudokope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adamavo",
+            "commune": "golfe-6",
+            "slug": "adamavo",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logoti",
+            "commune": "golfe-6",
+            "slug": "logoti",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Doèvi-Kopé",
+            "commune": "golfe-6",
+            "slug": "doevi-kope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avépozo",
+            "commune": "golfe-6",
+            "slug": "avepozo",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Dévégo",
+            "commune": "golfe-6",
+            "slug": "devego",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kpogan",
+            "commune": "golfe-6",
+            "slug": "kpogan",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Boboloè",
+            "commune": "golfe-6",
+            "slug": "boboloe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Agodèkè",
+            "commune": "golfe-6",
+            "slug": "agodeke",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Baguida",
+            "commune": "golfe-6",
+            "slug": "baguida",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

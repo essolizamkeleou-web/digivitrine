@@ -1,9 +1,634 @@
 {
     "commune": "agoe-nyive-1",
-    "list_status": "a_verifier",
+    "list_status": "partiel",
     "declared_count": null,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Aucun décompte trouvé lors de l'audit.",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : mairie d'Agoè-Nyivé 1, non localisée). Le document distingue 7 quartiers et 32 villages et localités, à ne pas confondre : 39 entrées listées. Le type des 32 villages et localités reste non précisé. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Atsanvé",
+            "commune": "agoe-nyive-1",
+            "slug": "atsanve",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Houmbi",
+            "commune": "agoe-nyive-1",
+            "slug": "houmbi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kpatefi",
+            "commune": "agoe-nyive-1",
+            "slug": "kpatefi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klévé",
+            "commune": "agoe-nyive-1",
+            "slug": "kleve",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apélébuimé",
+            "commune": "agoe-nyive-1",
+            "slug": "apelebuime",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adidodokpo",
+            "commune": "agoe-nyive-1",
+            "slug": "adidodokpo",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Nyivémé",
+            "commune": "agoe-nyive-1",
+            "slug": "nyiveme",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adjouyiko",
+            "commune": "agoe-nyive-1",
+            "slug": "adjouyiko",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adougba",
+            "commune": "agoe-nyive-1",
+            "slug": "adougba",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Ahonga-Kopé",
+            "commune": "agoe-nyive-1",
+            "slug": "ahonga-kope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Anokoui-Komékopé",
+            "commune": "agoe-nyive-1",
+            "slug": "anokoui-komekope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Anokoui-Ahokopé",
+            "commune": "agoe-nyive-1",
+            "slug": "anokoui-ahokope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Anomé-Gblé",
+            "commune": "agoe-nyive-1",
+            "slug": "anome-gble",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Anonkui-Nogo",
+            "commune": "agoe-nyive-1",
+            "slug": "anonkui-nogo",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apényigbi",
+            "commune": "agoe-nyive-1",
+            "slug": "apenyigbi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Démakpoè",
+            "commune": "agoe-nyive-1",
+            "slug": "demakpoe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Djingblé",
+            "commune": "agoe-nyive-1",
+            "slug": "djingble",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Fiovi",
+            "commune": "agoe-nyive-1",
+            "slug": "fiovi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Gbonvié-Anomé",
+            "commune": "agoe-nyive-1",
+            "slug": "gbonvie-anome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Gnamassigan",
+            "commune": "agoe-nyive-1",
+            "slug": "gnamassigan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kitidjan",
+            "commune": "agoe-nyive-1",
+            "slug": "kitidjan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klévé-Apégnigbi",
+            "commune": "agoe-nyive-1",
+            "slug": "kleve-apegnigbi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klévé-Assiyéyé",
+            "commune": "agoe-nyive-1",
+            "slug": "kleve-assiyeye",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kové",
+            "commune": "agoe-nyive-1",
+            "slug": "kove",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logopé-Agbanyokopé",
+            "commune": "agoe-nyive-1",
+            "slug": "logope-agbanyokope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logopé-Atsanvé",
+            "commune": "agoe-nyive-1",
+            "slug": "logope-atsanve",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logopé-Houmbigblé",
+            "commune": "agoe-nyive-1",
+            "slug": "logope-houmbigble",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logopé-Kpatefi",
+            "commune": "agoe-nyive-1",
+            "slug": "logope-kpatefi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Netimé",
+            "commune": "agoe-nyive-1",
+            "slug": "netime",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Nyavimé-Aveyimé",
+            "commune": "agoe-nyive-1",
+            "slug": "nyavime-aveyime",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sogbossito",
+            "commune": "agoe-nyive-1",
+            "slug": "sogbossito",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sogbossito-Apélébuimé",
+            "commune": "agoe-nyive-1",
+            "slug": "sogbossito-apelebuime",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sogbossito-Aziasikopé",
+            "commune": "agoe-nyive-1",
+            "slug": "sogbossito-aziasikope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Télessou-Adokpokopé",
+            "commune": "agoe-nyive-1",
+            "slug": "telessou-adokpokope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Télessou-Agbodéka-Kopé",
+            "commune": "agoe-nyive-1",
+            "slug": "telessou-agbodeka-kope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Togomé",
+            "commune": "agoe-nyive-1",
+            "slug": "togome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Totsi-Nyivémé",
+            "commune": "agoe-nyive-1",
+            "slug": "totsi-nyiveme",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Totsi-Kpatefi-Cacavéli",
+            "commune": "agoe-nyive-1",
+            "slug": "totsi-kpatefi-cacaveli",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Zogbégan",
+            "commune": "agoe-nyive-1",
+            "slug": "zogbegan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

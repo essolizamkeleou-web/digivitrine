@@ -1,9 +1,394 @@
 {
     "commune": "golfe-5",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 24,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 24 villages et quartiers (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 24 villages et quartiers annoncés, 24 listés. Villages et quartiers mélangés : type non précisé. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Gakli/Djidjolé",
+            "commune": "golfe-5",
+            "slug": "gakli-djidjole",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "Le slug standard deformerait le nom a cause d'un caractere special (barre oblique ou degre) : slug compose sans ce caractere.",
+            "notes": "Le caractere / de la source separe peut-etre deux noms : a trancher (alias ou deux entrees)."
+        },
+        {
+            "name": "Tokoin-Casablanca",
+            "commune": "golfe-5",
+            "slug": "tokoin-casablanca",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Akosombo-Tamé",
+            "commune": "golfe-5",
+            "slug": "akosombo-tame",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Akosombo-Atikoumé",
+            "commune": "golfe-5",
+            "slug": "akosombo-atikoume",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Agbalépedogan",
+            "commune": "golfe-5",
+            "slug": "agbalepedogan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Agbalépedo-Dabla-Kopé",
+            "commune": "golfe-5",
+            "slug": "agbalepedo-dabla-kope",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Totsigan",
+            "commune": "golfe-5",
+            "slug": "totsigan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Totsivi-Gblenkomé",
+            "commune": "golfe-5",
+            "slug": "totsivi-gblenkome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adidoadin",
+            "commune": "golfe-5",
+            "slug": "adidoadin",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Soviépé",
+            "commune": "golfe-5",
+            "slug": "soviepe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avenou-Batomé",
+            "commune": "golfe-5",
+            "slug": "avenou-batome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Telessou",
+            "commune": "golfe-5",
+            "slug": "avedji-telessou",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Anyigbé",
+            "commune": "golfe-5",
+            "slug": "avedji-anyigbe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adigomé-Teshie",
+            "commune": "golfe-5",
+            "slug": "adigome-teshie",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Wessome-Hetchavi",
+            "commune": "golfe-5",
+            "slug": "wessome-hetchavi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apédokoè-Legbanou",
+            "commune": "golfe-5",
+            "slug": "apedokoe-legbanou",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Kpodji",
+            "commune": "golfe-5",
+            "slug": "avedji-kpodji",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Awounogbé",
+            "commune": "golfe-5",
+            "slug": "avedji-awounogbe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Adidomé",
+            "commune": "golfe-5",
+            "slug": "avedji-adidome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Amadahomé",
+            "commune": "golfe-5",
+            "slug": "amadahome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Adidogomé",
+            "commune": "golfe-5",
+            "slug": "adidogome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apédokoè-Molèdji",
+            "commune": "golfe-5",
+            "slug": "apedokoe-moledji",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avédji-Anyigbé-Sud",
+            "commune": "golfe-5",
+            "slug": "avedji-anyigbe-sud",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avenou-Klétigomé",
+            "commune": "golfe-5",
+            "slug": "avenou-kletigome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

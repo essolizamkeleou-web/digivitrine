@@ -1,9 +1,314 @@
 {
     "commune": "agoe-nyive-5",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 19,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Aucun décompte trouvé lors de l'audit.",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 19 villages annoncés, 19 listés. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Afiadenyigban",
+            "commune": "agoe-nyive-5",
+            "slug": "afiadenyigban",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Agbelikor",
+            "commune": "agoe-nyive-5",
+            "slug": "agbelikor",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Anyigbé",
+            "commune": "agoe-nyive-5",
+            "slug": "anyigbe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Attigankopé",
+            "commune": "agoe-nyive-5",
+            "slug": "attigankope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Dangbessito",
+            "commune": "agoe-nyive-5",
+            "slug": "dangbessito",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Dékpo",
+            "commune": "agoe-nyive-5",
+            "slug": "dekpo",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Ezionkopé",
+            "commune": "agoe-nyive-5",
+            "slug": "ezionkope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klémé",
+            "commune": "agoe-nyive-5",
+            "slug": "kleme",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klikamé",
+            "commune": "agoe-nyive-5",
+            "slug": "klikame",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kohé",
+            "commune": "agoe-nyive-5",
+            "slug": "kohe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kopégan",
+            "commune": "agoe-nyive-5",
+            "slug": "kopegan",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Nanégbé",
+            "commune": "agoe-nyive-5",
+            "slug": "nanegbe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Nanégbé-Zossimé",
+            "commune": "agoe-nyive-5",
+            "slug": "nanegbe-zossime",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sanyrakor",
+            "commune": "agoe-nyive-5",
+            "slug": "sanyrakor",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tagakopé",
+            "commune": "agoe-nyive-5",
+            "slug": "tagakope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Trokpossime",
+            "commune": "agoe-nyive-5",
+            "slug": "trokpossime",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Vogomé",
+            "commune": "agoe-nyive-5",
+            "slug": "vogome",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Zopomahé",
+            "commune": "agoe-nyive-5",
+            "slug": "zopomahe",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Assigomé",
+            "commune": "agoe-nyive-5",
+            "slug": "assigome",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

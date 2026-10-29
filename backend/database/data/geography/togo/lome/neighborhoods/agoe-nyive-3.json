@@ -1,9 +1,106 @@
 {
     "commune": "agoe-nyive-3",
-    "list_status": "a_verifier",
+    "list_status": "partiel",
     "declared_count": null,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Aucun décompte trouvé lors de l'audit.",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 6 villages cités « notamment » ; le document précise que la liste n'est pas exhaustive. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Hossoukopé",
+            "commune": "agoe-nyive-3",
+            "slug": "hossoukope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Logogomé",
+            "commune": "agoe-nyive-3",
+            "slug": "logogome",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Elavagnon-Atsanvé",
+            "commune": "agoe-nyive-3",
+            "slug": "elavagnon-atsanve",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Elavagnon-Klévé",
+            "commune": "agoe-nyive-3",
+            "slug": "elavagnon-kleve",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Awoudja-Kopé",
+            "commune": "agoe-nyive-3",
+            "slug": "awoudja-kope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Dansakopé",
+            "commune": "agoe-nyive-3",
+            "slug": "dansakope",
+            "kind": "village",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

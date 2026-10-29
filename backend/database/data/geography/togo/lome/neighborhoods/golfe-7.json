@@ -1,9 +1,426 @@
 {
     "commune": "golfe-7",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 26,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 26 subdivisions (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 26 villages et localités annoncés, 26 listés : type non précisé. Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Akato-Viépé",
+            "commune": "golfe-7",
+            "slug": "akato-viepe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Avoémé",
+            "commune": "golfe-7",
+            "slug": "avoeme",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Akato-Démé",
+            "commune": "golfe-7",
+            "slug": "akato-deme",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Segbégan",
+            "commune": "golfe-7",
+            "slug": "segbegan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Segbé-Douane",
+            "commune": "golfe-7",
+            "slug": "segbe-douane",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klémé-Agokpanou",
+            "commune": "golfe-7",
+            "slug": "kleme-agokpanou",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Klémé-Yéwépe",
+            "commune": "golfe-7",
+            "slug": "kleme-yewepe",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Wougomé-Dékpo",
+            "commune": "golfe-7",
+            "slug": "wougome-dekpo",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Wougomé",
+            "commune": "golfe-7",
+            "slug": "wougome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sagbado-Avoémé",
+            "commune": "golfe-7",
+            "slug": "sagbado-avoeme",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sagbado-Logoté",
+            "commune": "golfe-7",
+            "slug": "sagbado-logote",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sagbado-Sakani",
+            "commune": "golfe-7",
+            "slug": "sagbado-sakani",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Sagbado-Kpéssoudji",
+            "commune": "golfe-7",
+            "slug": "sagbado-kpessoudji",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Lankouvi-Avoémé",
+            "commune": "golfe-7",
+            "slug": "lankouvi-avoeme",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Lankouvi-Kpéssoudji",
+            "commune": "golfe-7",
+            "slug": "lankouvi-kpessoudji",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Lankouvi-Hodor",
+            "commune": "golfe-7",
+            "slug": "lankouvi-hodor",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Yokoè-Kopégan",
+            "commune": "golfe-7",
+            "slug": "yokoe-kopegan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Yokoè-Agblégan",
+            "commune": "golfe-7",
+            "slug": "yokoe-agblegan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Gblinkomégan",
+            "commune": "golfe-7",
+            "slug": "gblinkomegan",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apédokoè-Gbomamé",
+            "commune": "golfe-7",
+            "slug": "apedokoe-gbomame",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Apédokoè-Agokpanou",
+            "commune": "golfe-7",
+            "slug": "apedokoe-agokpanou",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Awatamé",
+            "commune": "golfe-7",
+            "slug": "awatame",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Wonyomé",
+            "commune": "golfe-7",
+            "slug": "wonyome",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Agotimé",
+            "commune": "golfe-7",
+            "slug": "agotime",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Zanvi",
+            "commune": "golfe-7",
+            "slug": "zanvi",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Ablogamé",
+            "commune": "golfe-7",
+            "slug": "ablogame",
+            "kind": "non_precise",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }

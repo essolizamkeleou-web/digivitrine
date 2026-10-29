@@ -117,6 +117,39 @@
             "license": "CC BY 4.0",
             "located": true,
             "note": "Recoupement uniquement : le classement des lieux (quartier, ville) y est hétérogène."
+        },
+        {
+            "id": "src-doc-proprietaire-2026-10-28",
+            "title": "Document de compilation fourni par le proprietaire (28 octobre 2026) : noms de quartiers, villages et localites par commune",
+            "publisher": "Projet DigiVitrine (compilation dont les sources citees, portail du DAGL et mairies du Golfe 1 et d'Agoe-Nyive 1, n'ont pas ete localisees)",
+            "type": "interne",
+            "tier": 6,
+            "url": null,
+            "license": null,
+            "located": true,
+            "note": "Candidats seulement, jamais une preuve. Le document signale lui-meme que plusieurs listes ne sont pas exhaustives."
+        },
+        {
+            "id": "src-allafrica-golfe1-2025-10",
+            "title": "Togo : Koamy Gomado reelu avec 100 % des voix a Golfe 1 (17 octobre 2025)",
+            "publisher": "AllAfrica",
+            "type": "presse",
+            "tier": 5,
+            "url": "https://fr.allafrica.com/stories/202510180068.html",
+            "license": null,
+            "located": true,
+            "note": "Indique que Golfe 1 s'etend sur 36 quartiers : corrobore le decompte, pas les noms."
+        },
+        {
+            "id": "src-wikipedia-prefecture-golfe",
+            "title": "Prefecture du Golfe (copie de Wikipedia)",
+            "publisher": "franco.wiki (miroir de Wikipedia)",
+            "type": "encyclopedie",
+            "tier": 5,
+            "url": "https://franco.wiki/fr/Pr%C3%A9fecture_du_Golfe.html",
+            "license": "CC BY-SA",
+            "located": true,
+            "note": "Decomptes par commune du Golfe : 31, 8, 8, 26, 24 et 11 pour Golfe 1 a 6. Golfe 1 : 31 ici contre 36 dans la presse."
         }
     ]
 }

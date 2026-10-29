@@ -1,9 +1,138 @@
 {
     "commune": "golfe-3",
-    "list_status": "a_verifier",
-    "declared_count": null,
+    "list_status": "partiel",
+    "declared_count": 8,
     "reviewed_by": null,
     "reviewed_on": null,
-    "notes": "Aucune liste de quartiers n'a été renseignée. Décompte secondaire cité lors de l'audit : 8 subdivisions (Wikipédia, non vérifié).",
-    "neighborhoods": []
+    "notes": "Candidats issus du document fourni (source citée : DAGL, non localisée) : 8 noms listés pour 8 annoncés, décompte concordant avec une page encyclopédique (source secondaire). Aucun nom vérifié.",
+    "neighborhoods": [
+        {
+            "name": "Tokoin-Elavagnon Lycée",
+            "commune": "golfe-3",
+            "slug": "tokoin-elavagnon-lycee",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Gbonvié",
+            "commune": "golfe-3",
+            "slug": "tokoin-gbonvie",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Doumasséssé",
+            "commune": "golfe-3",
+            "slug": "doumassesse",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Klévé",
+            "commune": "golfe-3",
+            "slug": "tokoin-kleve",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Tokoin-Atchanti",
+            "commune": "golfe-3",
+            "slug": "tokoin-atchanti",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Kélégouvi",
+            "commune": "golfe-3",
+            "slug": "kelegouvi",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Massouhoin",
+            "commune": "golfe-3",
+            "slug": "massouhoin",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        },
+        {
+            "name": "Hanoukopé-Est",
+            "commune": "golfe-3",
+            "slug": "hanoukope-est",
+            "kind": "quartier",
+            "aliases": [],
+            "sources": [
+                "src-doc-proprietaire-2026-10-28"
+            ],
+            "verification": "a_verifier",
+            "verified_by": null,
+            "verified_on": null,
+            "distinct_from": [],
+            "slug_reason": "",
+            "notes": ""
+        }
+    ]
 }
