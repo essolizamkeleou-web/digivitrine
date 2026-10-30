@@ -52,6 +52,8 @@ class ArtisanSearch
             ->orWhereHas('subcategories', fn ($subcategory) => $subcategory->whereRaw($matches('subcategories.name'), [$like]))
             ->orWhereHas('services', fn ($service) => $service->where('services.is_active', true)->whereRaw($matches('services.name'), [$like]))
             ->orWhereHas('neighborhood', fn ($neighborhood) => $neighborhood->whereRaw($matches('neighborhoods.name'), [$like]))
+            ->orWhereHas('neighborhood.commune', fn ($commune) => $commune->whereRaw($matches('communes.name'), [$like]))
+            ->orWhereHas('neighborhood.aliases', fn ($alias) => $alias->where('neighborhood_aliases.alias_key', 'like', $like))
             ->orWhereHas('neighborhood.city', fn ($city) => $city->whereRaw($matches('cities.name'), [$like]));
     }
 

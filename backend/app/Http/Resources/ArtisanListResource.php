@@ -31,6 +31,7 @@ class ArtisanListResource extends JsonResource
             'neighborhood' => $this->whenLoaded('neighborhood', fn ($neighborhood) => [
                 'slug' => $neighborhood->slug,
                 'name' => $neighborhood->name,
+                ...($neighborhood->loadMissing('commune')->commune === null ? [] : ['commune' => ['slug' => $neighborhood->commune->slug, 'name' => $neighborhood->commune->name]]),
                 'city' => $neighborhood->relationLoaded('city') && $neighborhood->city !== null
                     ? ['slug' => $neighborhood->city->slug, 'name' => $neighborhood->city->name, 'country_code' => $neighborhood->city->country_code]
                     : null,

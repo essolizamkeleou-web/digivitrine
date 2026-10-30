@@ -19,6 +19,7 @@ class NeighborhoodResource extends JsonResource
         return [
             'slug' => $this->slug,
             'name' => $this->name,
+            ...($this->loadMissing('commune')->commune === null ? [] : ['commune' => ['slug' => $this->commune->slug, 'name' => $this->commune->name]]),
             'city' => $this->whenLoaded('city', fn ($city) => CityResource::make($city)->resolve()),
         ];
     }

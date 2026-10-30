@@ -46,3 +46,4 @@ Le référentiel est fiable et traçable, mais le pilote dépend d'une validatio
 
 - **2026-10-28** : couche de données livrée. Migration additive (`communes`, colonnes `commune_id`, `kind`, `verification` et `source_ref` sur `neighborhoods`, table `neighborhood_aliases`, clé composite commune/ville), modèles et énumérations, commande `php artisan geography:load` (simulation par défaut, `--apply`, arrêt sur toute collision de slug, quartiers non vérifiés chargés inactifs), tests.
 - **À faire** : champ `commune` dans les réponses de l'API, filtre `commune` facultatif, alias pris en compte par la recherche, puis les données elles-mêmes (sources à localiser, validation terrain).
+- **2026-10-29** : API : endpoints publics des communes, champ commune dans les reponses, filtre commune, alias et nom de commune dans la recherche. Le contrat de creation (city + neighborhood) est inchange.

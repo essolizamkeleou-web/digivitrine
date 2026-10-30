@@ -28,6 +28,8 @@ class AdminArtisanDirectory
                 ->whereHas('categories', fn (Builder $category) => $category->where('categories.slug', $slug)))
             ->when($params['subcategory'] ?? null, fn (Builder $q, string $slug) => $q
                 ->whereHas('subcategories', fn (Builder $subcategory) => $subcategory->where('subcategories.slug', $slug)))
+            ->when($params['commune'] ?? null, fn (Builder $q, string $slug) => $q
+                ->whereHas('neighborhood.commune', fn (Builder $commune) => $commune->where('slug', $slug)))
             ->when($params['neighborhood'] ?? null, fn (Builder $q, string $slug) => $q
                 ->whereHas('neighborhood', fn (Builder $neighborhood) => $neighborhood->where('slug', $slug)))
             ->when($params['city'] ?? null, fn (Builder $q, string $slug) => $q
@@ -49,13 +51,14 @@ class AdminArtisanDirectory
      */
     public function listRelations(): array
     {
-        return ['neighborhood.city', 'categories', 'subcategories'];
+        return ['neighborhood.city', 'neighborhood.commune', 'categories', 'subcategories'];
     }
 
     public function loadDetail(Artisan $artisan): Artisan
     {
         return $artisan->load([
             'neighborhood.city',
+            'neighborhood.commune',
             'categories',
             'subcategories',
             'services' => fn (Relation $query) => $query->where('is_active', true)->orderBy('position')->orderBy('id'),

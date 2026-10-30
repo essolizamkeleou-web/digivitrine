@@ -26,6 +26,8 @@ class ArtisanDirectory
                 ->whereHas('categories', fn (Builder $category) => $category->where('categories.slug', $slug)))
             ->when($filters['subcategory'] ?? null, fn (Builder $query, string $slug) => $query
                 ->whereHas('subcategories', fn (Builder $subcategory) => $subcategory->where('subcategories.slug', $slug)))
+            ->when($filters['commune'] ?? null, fn (Builder $query, string $slug) => $query
+                ->whereHas('neighborhood.commune', fn (Builder $commune) => $commune->where('slug', $slug)))
             ->when($filters['neighborhood'] ?? null, fn (Builder $query, string $slug) => $query
                 ->whereHas('neighborhood', fn (Builder $neighborhood) => $neighborhood->where('slug', $slug)))
             ->when($filters['city'] ?? null, fn (Builder $query, string $slug) => $query
@@ -39,13 +41,14 @@ class ArtisanDirectory
      */
     public function listRelations(): array
     {
-        return ['neighborhood.city', 'categories', 'subcategories', 'primaryPhoto'];
+        return ['neighborhood.city', 'neighborhood.commune', 'categories', 'subcategories', 'primaryPhoto'];
     }
 
     public function loadDetail(Artisan $artisan): Artisan
     {
         return $artisan->load([
             'neighborhood.city',
+            'neighborhood.commune',
             'categories',
             'subcategories',
             'services' => fn (Relation $query) => $query->where('is_active', true)->orderBy('position')->orderBy('id'),

@@ -15,7 +15,7 @@ class ListArtisansRequest extends FormRequest
     {
         $merge = [];
 
-        foreach (['category', 'subcategory', 'city', 'neighborhood'] as $field) {
+        foreach (['category', 'subcategory', 'city', 'neighborhood', 'commune'] as $field) {
             if (is_string($this->input($field))) {
                 $merge[$field] = strtolower($this->input($field));
             }
@@ -42,6 +42,7 @@ class ListArtisansRequest extends FormRequest
             'subcategory' => $slug,
             'city' => $slug,
             'neighborhood' => $slug,
+            'commune' => $slug,
             'country' => ['nullable', 'string', 'size:2', 'alpha'],
         ];
     }
@@ -61,6 +62,7 @@ class ListArtisansRequest extends FormRequest
             'subcategory.regex' => "Identifiant de sous-cat\u{E9}gorie invalide.",
             'city.regex' => 'Identifiant de ville invalide.',
             'neighborhood.regex' => 'Identifiant de quartier invalide.',
+            'commune.regex' => 'Identifiant de commune invalide.',
             'country.size' => "Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).",
             'country.alpha' => "Le pays doit \u{EA}tre un code \u{E0} 2 lettres (exemple : TG).",
         ];
