@@ -32,7 +32,9 @@
             "references": [
                 "Loi n° 2017-008 du 29 juin 2017 portant création des communes (numéro écrit 2017-008 par le DAGL et 2017-08 par la mairie de Golfe 1)",
                 "Loi n° 2019-001 du 9 janvier 2019 modifiant la loi de 2017 (citée par le DAGL)",
-                "Décret n° 2017-144/PR du 22 décembre 2017 fixant le ressort territorial de Golfe 1 (cité par la mairie de Golfe 1)"
+                "Décret n° 2017-144/PR du 22 décembre 2017 fixant le ressort territorial de Golfe 1 (cité par la mairie de Golfe 1)",
+                "Décret n° 2017-141/PR portant création de communes du Golfe (cité par le DAGL pour Golfe 3)",
+                "Loi n° 2019-006 du 26 juin 2019 modifiant la loi 2007-011 sur la décentralisation (citée par le DAGL pour l'érection du canton d'Aflao Gakli en commune du Golfe 5)"
             ]
         },
         {
@@ -218,6 +220,102 @@
             "located": false,
             "retrieved_on": null,
             "note": "Non consultée : le site interdit l'accès automatisé (robots.txt). À lire à la main et à comparer aux 39 entrées d'Agoè-Nyivé 1. Niveau 3 provisoire, jamais lu : ne peut pas servir de preuve."
+        },
+        {
+            "id": "src-dagl-golfe-2",
+            "title": "DAGL : Commune du Golfe 2",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://dagl.tg/communes/5-commune-du-golfe-2",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Annonce 8 quartiers du canton de Bè Centre, chef-lieu Hédzranawoé, et les énumère. Faute dans la source : « Hédzranaoé 2 (Togo 2000) » (sans le w) alors que la même page écrit Hédzranawoé ailleurs."
+        },
+        {
+            "id": "src-dagl-golfe-3",
+            "title": "DAGL : Commune du Golfe 3",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://dagl.tg/communes/3-commune-du-golfe-3",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Commune aussi appelée Mairie de Bè-Ouest, créée par le décret n° 2017-141/PR, chef-lieu Doumasséssé (aussi l'un des 8 quartiers énumérés). Annonce et énumère 8 quartiers."
+        },
+        {
+            "id": "src-dagl-golfe-4",
+            "title": "DAGL : Commune du Golfe 4",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://dagl.tg/communes/12-commune-du-golfe-4",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Énumère 26 noms sans annoncer de décompte ; la commune siège à Amoutivé. CHU Sylvanus Olympio figure dans la liste : nature à confirmer."
+        },
+        {
+            "id": "src-dagl-golfe-5",
+            "title": "DAGL : Commune Golfe 5",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://dagl.tg/communes/13-commune-golfe-5",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Annonce 24 villages et quartiers et les énumère ; Gakli/Djidjolé est écrit avec une barre oblique dans la source. Le canton d'Aflao Gakli a été érigé en commune du Golfe 5 (loi n° 2019-006 du 26 juin 2019 citée). Mentionne aussi les mairies de Sagbado (Golfe 7), Vakpossito (Agoè-Nyivé 3), Sanguera (Agoè-Nyivé 5) et Agoè-Nyivé (Agoè-Nyivé 1)."
+        },
+        {
+            "id": "src-dagl-golfe-6",
+            "title": "DAGL : Commune du Golfe 6",
+            "publisher": "District Autonome du Grand Lomé (DAGL)",
+            "type": "page communale institutionnelle",
+            "tier": 3,
+            "url": "https://dagl.tg/communes/2-commune-du-golfe-6",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Écrit « Golfe 6 (Baguida) » et annonce 11 villages « notamment » : liste non exhaustive. Énumère 11 noms."
+        },
+        {
+            "id": "src-pdc-golfe-1",
+            "title": "Plan de développement communal de Golfe 1 (2022-2026)",
+            "publisher": "Commune du Golfe 1, document hébergé par le ministère chargé de l'aménagement du territoire (amenagement.gouv.tg)",
+            "type": "plan communal",
+            "tier": 3,
+            "url": "https://amenagement.gouv.tg/wp-content/uploads/2025/05/GOLFE-1-PDC-2022-2026.pdf",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Cite 36 quartiers à plusieurs reprises, le chef-lieu Bè-Afédomé, la loi n° 2017-008 du 29 juin 2017 et Bè Souza Nétimé 1, 2 et 3 parmi les quartiers. Cite aussi des quartiers Gbenyedji et Bè Hédzé, absents de nos 36 noms (variantes possibles) : à rapprocher, non ajoutés. Texte lu par extrait, pas en entier."
+        },
+        {
+            "id": "src-allafrica-golfe-2-3-2026-10",
+            "title": "Togo : Golfe 2 et Golfe 3 font front commun (9 octobre 2026)",
+            "publisher": "AllAfrica",
+            "type": "presse",
+            "tier": 5,
+            "url": "https://fr.allafrica.com/stories/202610090666.html",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Désigne Golfe 2 par Bè-Centre (chef-lieu Hédzranawoé) et Golfe 3 par Bè-Ouest (chef-lieu Doumasséssé) : corrobore les libellés, pas les listes de quartiers."
+        },
+        {
+            "id": "src-alome-quartiers-communes",
+            "title": "Les différents quartiers composant chacune des 7 communes de Lomé",
+            "publisher": "aLome.com (article ancien)",
+            "type": "presse",
+            "tier": 5,
+            "url": "http://news.alome.com/h/138312.html",
+            "license": null,
+            "located": true,
+            "retrieved_on": "2026-10-29",
+            "note": "Source ancienne de niveau 5. Écrit Abobokomé là où le DAGL (Golfe 4) écrit Anagokomé : conflit de nom à trancher, non résolu."
         }
     ]
 }
